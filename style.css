@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffb6c1, #ff69b4);
+  color: #fff;
+  text-align: center;
+}
+
+.hero {
+  margin-top: 20%;
+}
+
+h1 {
+  font-size: 3em;
+  animation: fadeIn 3s ease-in-out;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: #e91e63;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ad1457;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.surprise {
+  margin-top: 15%;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#romanticCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
